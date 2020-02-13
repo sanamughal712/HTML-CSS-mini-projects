@@ -1,0 +1,31 @@
+input{
+    background-color: rgba(166, 171, 175, 0.288);
+    padding: 5px;
+    border: 2px solid rgb(117, 113, 107);
+    border-radius: 5px;
+}
+textarea,select{
+    background-color: rgba(166, 171, 175, 0.288);
+    border: 2px solid rgb(117, 113, 107);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+td{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-decoration: rgb(117, 113, 107);
+}
+button{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(36, 196, 182);
+    padding: 10px;
+    border: 2px solid rgb(77, 82, 81);
+    border-radius: 5px;
+}
+button:hover{
+    text-decoration: underline;
+
+}
