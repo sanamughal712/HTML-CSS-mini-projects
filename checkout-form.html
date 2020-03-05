@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link href="./checkout-form.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <img src="logo.PNG" alt="logo">
+    <h1>Checkout form</h1>
+    <p>Below is an example form built entirely with Bootstrap's form controls. Each required form group has a<br>
+     validation state that can be triggered by attempting to submit the form without completing it.</p>
+    
+    <aside>
+        <h3>Your Cart</h3>
+        <div>
+        <table>
+            <tr>
+                <td colspan="2" class="styling"><strong>Product name </strong><br><small>Brief description</small></td>
+                <td>$12</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="styling"><strong> Second Product</strong><br><small>Brief description</small></td>
+                <td>$8</td>
+            </tr>
+            <tr>    
+                <td colspan="2" class="styling"><strong>Third item </strong><br><small>Brief description</small></td>
+                <td>$5</td>
+            </tr>
+            <tr>    
+                <td colspan="2" class="styling" style="color:rgba(89, 201, 135, 0.808)">Promo code <br><small> EXAMPLE CODE</small></td>
+                <td style="color:rgba(89, 201, 135, 0.808)">-$12</td>
+            </tr>
+            <tr>    
+                <td colspan="2">Total (USD)</td>
+                <td><b>$20</b></td>
+            </tr>    
+        </table>
+        <input type="number" name="promocode" placeholder="Promo code" style="width:64%;padding:2%;margin-top: 5%;
+          margin-right: -2%; ">
+          
+        <input type="submit" name="redeemcode" value="Redeem" style="background-color:rgba(128, 128, 128, 0.571);
+           color:white; padding:2%;border-radius:5% ; ">
+        </div>
+    </aside>
+
+    <div class="maincontainer" >
+    <div class="billaddr">
+     <h3>Billing adress</h3>
+     <form>
+         <div>
+            <div style="width:45%;display:inline-block">
+             First name <br>       
+             <input type="text" name="Firstname" style="width:90%; padding:1%" >
+            </div>
+        <div style="width:45%;display:inline-block"> 
+            Last Name<br>
+            <input type="text" name="Lastname" style="width:100%; padding:1%" > 
+        </div>
+         </div>
+         
+         <br>
+
+         User name<br>
+         <input type="text" name="username"  placeholder="Username" maxlength="500"> 
+         <br> 
+         Email (optional)<br>
+         <input type="email" name="email" placeholder="you@example.com"><br>
+         Address <br>
+         <input type="text" name="addr" placeholder="1234 Main Street" > <br>
+         Address 2 (optional)<br> 
+         <input type="text" name="addr2" placeholder="Apartment or Suite"><br>
+         
+         Country <select name="country">
+             <option value="choose" selected>choose</option>
+             <option value="United States">United States</option>
+         </select>
+         State <select name="state">
+            <option value="choose" selected>choose</option>
+            <option value="California">California</option>
+        </select>
+        Zip<input type="number" name="num">
+         <br>
+         <br>
+        <input type="checkbox" name="info" checked>Shipping address is the same as my billing address <br>
+        <input type="checkbox" name="infoad" >Save this information for next time<br>
+        
+        <hr>
+
+     <div class='Paymethod'>
+     <h3>Payment</h3>
+     <input type="radio" name="paymethod" checked>Credit Card <br>
+     <input type="radio" name="paymethod" checked>Debit Card  <br>
+     <input type="radio" name="paymethod" checked>Pay Pal     <br>
+     <br>
+     
+    <div style="display:inline-block ;width:30%" >
+      Name on Card<br> 
+     <input type="text" name="crdname" style="width:90% ; padding:1%" ></div>
+     <div style="display:inline-block ;width:30%">
+     Credit Card Number <br>
+     <input type="text" name="crdno" style="width:90% ;padding:1%"></div>
+    </div>
+     <br>
+     <div>
+     <div style="display:inline-block" >
+     Expiration <br>
+      <input type="text" name="exp" style="width:80% ;padding:1%"> 
+    </div>
+
+     <div style="display:inline-block">
+     CVV <br>
+       <input type="text" name="cvv"style="width:50% ;padding:1%">
+    </div>
+     </div>
+     <br>
+     <hr>
+     <button>Continue to check out</button>
+    </div>
+
+    </div>  
+    </form>
+</body>
+</html>

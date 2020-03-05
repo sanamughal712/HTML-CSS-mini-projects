@@ -1,0 +1,75 @@
+body{
+    background-color: rgba(233, 233, 229, 0.347);
+}
+img{
+    margin-left: 45%;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 105%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 161%;
+    word-spacing: 2px;
+    color: #494848;}
+
+.maincontainer{
+    width:62%;
+    display: grid;
+    margin-left: 10%;
+}
+
+.billaddr>form>input{
+    background-color: rgb(255, 255,255);
+    padding:1%;
+    border:1px solid rgba(128, 128, 128, 0.571);
+    border-radius: 5%;
+    margin: .5% 1% 1% 0%; 
+}
+.billaddr>form>select{
+    background-color: rgb(255, 255,255);
+    padding: 1%;
+    border:1px solid rgba(128, 128, 128, 0.571);
+    border-radius: 5%;
+    margin: 3% 3% 3% 0%;
+    width:20%;
+    margin-right: 5%;
+}
+
+input[type=text]{
+    width: 90%;  
+}
+input[type=number]{
+    width: 25%;  
+}
+input[type=email]{
+    width: 90%;  
+}
+#medbox{
+    width:30%;
+}
+
+aside{
+    float:right;
+    width:20%;
+    margin-right:6% ;
+}    
+table{
+    border: 1px solid rgba(128, 128, 128, 0.571);
+    background-color: white;
+    width:90%;
+    padding: 4%;
+}
+button{
+    width:100%;
+    padding: 1%;
+    color: white;
+    background-color: rgba(16, 107, 243, 0.945);
+    border-radius: 5%;
+    margin:1% 1% 1% 0%;
+}
+button:hover{
+    background-color: rgb(31, 31, 192);
+}
